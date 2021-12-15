@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="">
+    <title> MediTec </title>
+    <link rel="shortcut icon" href="img/img.jpg" type="image/x-icon">
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="/css/style2.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link href="/css/estilos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link href="fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libsfont-awasome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <a class="navbar-brand" href="farmacia.html">
+                    <span>
+                        MediTec
+                    </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class=""> </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="farmacia.html">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="medicamentos.html">Medicamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="doctors.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registro.html">Registrate</a>
+                        </li>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <img src="img/cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="70px"
+                                        width="70px" href="#" id="dropdown01" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false"></img>
+                                    <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                        <table id="lista-carrito" class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Imagen</th>
+                                                    <th>Nombre</th>
+                                                    <th>Precio</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+
+                                        <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar
+                                            Carrito</a>
+                                        <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                            Compra</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                <form class="form-inline">
+                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                </ul>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <!-- end header section -->
+
+     <!-- sección footer -->
+     <footer class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 footer_col">
+                    <div class="footer_contact">
+                        <h4>
+                            Reach at..
+                        </h4>
+                        <div class="contact_link_box">
+                            <a href="">
+                                <i class="ri-map-pin-line" aria-hidden="true"></i>
+                                <span>
+                                    Location
+                                </span>
+                            </a>
+                            <a href="">
+                                <i id="delivery" class="ri-phone-line" aria-hidden="true"></i>
+                                <span>
+                                    Llamanos 921574351
+                                </span>
+                            </a>
+                            <a href="">
+                                <i class="ri-mail-line" aria-hidden="true"></i>
+                                <span>
+                                    meditec@gmail.com
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer_social">
+                        <a href="">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 footer_col">
+                    <div class="footer_detail">
+                        <h4>
+                            Sobre nosotros
+                        </h4>
+                        <p>
+                            Somos una farmacia online que cuenta con una gran experiencia en servicio y atención
+                            al cliente, formado por un grupo de profesionales a tu disposición para darte y ofrecerte
+                            siempre lo mejor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 mx-auto footer_col">
+                    <div class="footer_link_box">
+                        <h4>
+                            Links
+                        </h4>
+                        <div class="footer_links">
+                            <a class="active" href="farmacia.html">
+                                Inicio
+                            </a>
+                            <a class="" href="nosotros.html">
+                                Sobre
+                            </a>
+                            <a class="" href="medicamentos.html">
+                                Medicamentos
+                            </a>
+                            <a class="" href="ofertas.html">
+                                Ofertas
+                            </a>
+                            <a class="" href="contact.html">
+                                Registrate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_social2">
+                    <h4>
+                        Formas de pago
+                    </h4>
+                    <a href="">
+                        <i class="ri-visa-line" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="ri-mastercard-line" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="ri-paypal-fill" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>
+                    &copy; <span id="displayYear"></span> All Rights Reserved By
+                    <a>TEAM 04<br><br></a>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+    <!-- fin sección footer -->
+
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="/js/javascript.js"></script>
+    <!-- owl slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script type="text/javascript" src="/js/custom.js"></script>
+    <script type="text/javascript" src="/js/contador.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+    <!-- End Google Map -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+
+</body>
+
+</html>
